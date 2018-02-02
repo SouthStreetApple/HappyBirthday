@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/birthdaycake"
+        android:scaleType="centerCrop"
+        android:tint="#E0F2F1"
+        android:tintMode="multiply"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday Katie!"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+
+        android:background="#BF80CBC4"
+
+        android:textSize="34sp"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From, Jameson"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+
+
+        android:background="#BF80CBC4"
+
+
+        android:textSize="34sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"/>
+</RelativeLayout>
